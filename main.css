@@ -1,0 +1,151 @@
+/* -------------------
+  #RESET
+--------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -------------------
+  #GENERAL
+--------------------*/
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* -------------------
+  #NAVIGATION
+--------------------*/
+
+.navbar{
+    padding: 1.2rem;
+}
+
+.navbar___nav{
+    text-align: right;
+    list-style-type: none;
+    width: 50%;
+    margin-left: 50%;
+}
+
+.navbar___nav___item{
+    display: inline-block;
+    font-size: 13px;
+}
+
+.navbar___nav___item:first-child{
+    margin-right: 8px;
+}
+
+.navbar___nav___item a {
+    color: rgb(37, 37, 37);
+}
+
+.navbar___nav___item:hover  {
+    text-decoration: underline;
+}
+
+/* -------------------
+  #LOGO-SECTION
+--------------------*/
+
+.logo-section{
+    position: relative;
+    width: 272px;
+    margin: 0 auto;
+    margin-top: 201px;
+}
+
+.logo-section___sub-text{
+    color: rgb(65, 138, 206);
+    position: absolute;
+    left: 79%;
+    bottom: 0;
+}
+
+
+/* -------------------
+  #FORM-SECTION
+--------------------*/
+
+form{
+    text-align: center;
+}
+
+.input-container{
+    width: 91%;
+    margin:25px auto;
+    margin-top: 25px;
+    border: 1px solid rgb(212, 212, 212);
+    color: #b6b0b0;
+    border-radius: 100px;
+    padding: 0.45rem; 
+    font-size: 13.7px;
+    text-align: center;
+}
+
+.input-container:hover{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0,0.2);
+}
+
+.query-input{
+    width:85%;
+    padding: 0.3rem;
+    border: none;
+    font-size: 1rem;
+
+}
+
+.query-input:focus{
+    outline: none;
+}
+
+/* //FORM-BUTTONS */
+
+.btn {
+    font-size: 0.86rem;
+    padding:  0.68rem ;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    color: rgb(56, 55, 55);
+}
+
+.btn:last-child{
+    margin-left: 0.6rem;
+}
+
+.btn:hover{
+    box-shadow: 0px 0px 2px rgba(0, 0, 0,0.5);
+}
+
+.btn--light-gray{
+    background-color: #f8f8f8; 
+    
+}
+
+/* //FORM-ICONS */
+
+.search-icon{
+    width: 20px;
+    fill: rgb(145, 143, 143);
+}
+
+.mic-icon {
+    width: 24px;
+}
+
+.search-icon, .mic-icon{
+    vertical-align: middle;
+}
+
+/* -------------------
+  #FOOTER
+--------------------*/
